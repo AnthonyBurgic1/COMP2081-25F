@@ -104,7 +104,7 @@ Possible values are: row | row-reverse | column | column-reverse (lets go with r
 Possible values are: nowrap | wrap | wrap-reverse
 We need to set a width on the flex children to see this */
   flex-wrap: flex;
-  resize: both;
+  resize: vertical;
 /* STEP 3c: We can use the shorthand flex-flow to specify both the flex-direction and the flex-wrap */
   flex-flow: row wrap;
 /* STEP 4a: Control alignment of flex children along the main axis, with justify-content
