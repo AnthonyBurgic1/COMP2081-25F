@@ -99,11 +99,11 @@ textarea {
   display: flex;
 /* STEP 2: Define the main axis - this is the flex-direction
 Possible values are: row | row-reverse | column | column-reverse (lets go with row) */
-  
+  flex-direction: column;
 /* STEP 3a: Determine how element in the container will wrap - this is the flex-wrap property
 Possible values are: nowrap | wrap | wrap-reverse
 We need to set a width on the flex children to see this */
-  
+  flex-wrap: wrap;
 /* STEP 3c: We can use the shorthand flex-flow to specify both the flex-direction and the flex-wrap */
   
 /* STEP 4a: Control alignment of flex children along the main axis, with justify-content
@@ -124,7 +124,7 @@ Possible values for align-content are: flex-start | flex-end | center | space-be
 #flex body > div > div {
   padding: 1rem;
 /* STEP 3b: Set a width on the flex children to see the flex-wrap property */
-  
+  width: 20rem;
 /* STEP4b: Reduce width of the flex children to see the justify-content property */
 
 /* STEP6b: Increase width of the flex children to see the align-content property */
