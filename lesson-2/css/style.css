@@ -94,9 +94,9 @@ textarea {
   background: #ccc;
   border: 5px solid #aaa;
 /* STEP 6d: Set the height of the flex-container to fill the whole window */
-  
+
 /* STEP 1: Set the parent flexbox properties - this is now the FLEX CONTAINER */
-  
+  display: flex;
 /* STEP 2: Define the main axis - this is the flex-direction
 Possible values are: row | row-reverse | column | column-reverse (lets go with row) */
   
