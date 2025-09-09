@@ -109,7 +109,7 @@ We need to set a width on the flex children to see this */
 /* STEP 4a: Control alignment of flex children along the main axis, with justify-content
 Possible values are: flex-start | flex-end | center | space-between | space-around | space-evenly
 We need to reduce the width of the children to see this */
-  
+  justify-content: space-around;
 /* STEP 6c: Change the justify-content back to stretch */
 /* STEP 5: Align flex children on the cross axis with align-items
 Possible values are: flex-start | flex-end | center | baseline | stretch */
@@ -124,7 +124,7 @@ Possible values for align-content are: flex-start | flex-end | center | space-be
 #flex body > div > div {
   padding: 1rem;
 /* STEP 3b: Set a width on the flex children to see the flex-wrap property */
-  width: 20rem;
+  width: 10rem;
 /* STEP4b: Reduce width of the flex children to see the justify-content property */
 
 /* STEP6b: Increase width of the flex children to see the align-content property */
