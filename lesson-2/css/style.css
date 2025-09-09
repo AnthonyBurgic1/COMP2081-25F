@@ -179,7 +179,9 @@ Change the order in which the children appear - use order: <number>; */
 
  /* STEP 11: Set the column-count on the paragraph */
 #columns body > p {
-  column-count: 4;
+  column-count: 3;
+  column-gap: 3em;
+  column-rule: 5px dashed #aaa;
 }
 /* STEP 12: Set a column-gap on the paragraph above */
 
