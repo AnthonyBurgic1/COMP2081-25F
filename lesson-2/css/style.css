@@ -89,6 +89,7 @@ textarea {
  * FLEXBOX
  */
 
+ /*FLEX CONTAINER*/
  #flex body > div {
   background: #ccc;
   border: 5px solid #aaa;
