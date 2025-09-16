@@ -132,7 +132,17 @@ textarea {
   }
   
   /* STEP 5: Look at the browser dev tools grid inspector - the grid lines delineate the grid CELLS and grid items can span one or more cells and are called GRID AREAS */
-  
+    .wrapper div:nth-child(3) {
+      background-color: orange
+    };
+
+    .wrapper div:nth-child(3) {
+      background-color: pink
+    };
+
+    .wrapper div:nth-child(3) {
+      background-color: violet
+    };
   
   
      /* GRID - The Holy Grail Layout (index.html)
