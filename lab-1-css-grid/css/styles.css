@@ -19,12 +19,12 @@ body{
 }
 
 /* My background colors for each item in the grid */
-.a {background: #e6b7b7;}
-.b {background: #f8d7a6;}
-.c {background: #f9f7b6;}
-.d {background: #cfe9c7;}
-.e {background: #c6d8f5;}
-.f {background: #e2d4ec;}
+.a {background: #c1841b;}
+.b {background: #345015;}
+.c {background: #727dde;}
+.d {background: #884a84;}
+.e {background: #7ce0fc;}
+.f {background: #c75ac4;}
 
 .grid-container {
     grid-template-areas: 
