@@ -101,7 +101,7 @@ textarea {
   /* STEP 2d: Tracks using repeat() */
     grid-template-columns: 200px repeat(2, 1fr);
   /* STEP 3a: Implicit grids - set the height of new grid rows */
-    grid-auto-rows: minmax(50px, auto),;
+    grid-template-rows: 100px, 200px, 50px;
   /* STEP 3b: Setting minimum and maximum track dimensions with minmax() - you'll need to add some extra HTML content to one of the cells to see this */
     
   /* STEP 6: Set the gutters using column-gap and row-gap */
