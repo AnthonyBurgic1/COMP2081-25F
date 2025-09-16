@@ -91,11 +91,11 @@ textarea {
 
 .wrapper {
   /* STEP 1: Define the grid container */
-    
+    display: grid;
   /* STEP 2a: Define the grid tracks - starting with columns */
     
   /* STEP 2b: Use fractions to define column track widths (fr) */
-    
+    grid-template-columns: 1fr 2fr 1fr;;
   /* STEP 2c: Mix fractions with fixed widths */
     
   /* STEP 2d: Tracks using repeat() */
