@@ -3,12 +3,14 @@ body{
     font-family: sans-serif;
 }
 
+/* My Grid Container that sets up a nice layout with spacing */
 .grid-container{
     display: grid;
     gap: 5px;
     min-height: 100vh;
 }
 
+/* Basic grid styling for each item in the grid */
 .item {
     padding: 20px;
     text-size-adjust: 1.5rem;
@@ -16,6 +18,7 @@ body{
     border: 1px solid #ccc;
 }
 
+/* My background colors for each item in the grid */
 .a {background: #e6b7b7;}
 .b {background: #f8d7a6;}
 .c {background: #f9f7b6;}
@@ -32,7 +35,7 @@ body{
     "e"
     "f";
 }
-
+/* This is where I set up the grid for each of the areas and items in the grid */
 .a { grid-area: a; }
 .b { grid-area: b; }
 .c { grid-area: c; }
@@ -40,6 +43,7 @@ body{
 .e { grid-area: e; }
 .f { grid-area: f; }
 
+/* I assigned each item to its own area in the grid */
 @media (min-width: 768px) {
     .grid-container {
         grid-template-columns: 2fr, 1fr;
@@ -51,7 +55,7 @@ body{
         "f f";
     }
 }
-
+/* This is my three column layout for larger screens */
 @media (min-width: 992px) {
     .grid-container {
         grid-template-columns: 2fr 1fr 1fr;
