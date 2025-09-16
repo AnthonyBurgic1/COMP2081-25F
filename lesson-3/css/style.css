@@ -99,7 +99,7 @@ textarea {
   /* STEP 2c: Mix fractions with fixed widths */
     grid-template-columns: 250px 1fr 2fr;
   /* STEP 2d: Tracks using repeat() */
-    
+    grid-template-columns: 200px repeat(3, 1fr);
   /* STEP 3a: Implicit grids - set the height of new grid rows */
     
   /* STEP 3b: Setting minimum and maximum track dimensions with minmax() - you'll need to add some extra HTML content to one of the cells to see this */
