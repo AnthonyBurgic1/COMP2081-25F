@@ -112,6 +112,8 @@ textarea {
   
   .wrapper div:nth-child(1) {
     background: lightblue;
+    grid-column-start: 2;
+    grid-column-end: 4;
     
   }
   
@@ -121,7 +123,12 @@ textarea {
   
   .wrapper div:nth-child(2) {
     background: lightsalmon;
-    
+    /*grid-column-start: 1;
+    grid-column-end: 2; */
+    grid-column: 2/ 4;
+    /*grid-row-start: 2;
+    grid-row-end: 3; */
+    grid-row: 2 / 3;
   }
   
   /* STEP 5: Look at the browser dev tools grid inspector - the grid lines delineate the grid CELLS and grid items can span one or more cells and are called GRID AREAS */
