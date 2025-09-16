@@ -48,11 +48,11 @@ body{
     .grid-container {
         grid-template-columns: 2fr, 1fr;
         grid-template-areas: 
-        "a a"
-        "b c"
-        "b d"
-        "b e"
-        "f f";
+        "A A"
+        "B C"
+        "B D"
+        "B E"
+        "F F";
     }
 }
 /* This is my three column layout for larger screens */
