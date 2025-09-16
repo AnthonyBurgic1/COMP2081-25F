@@ -60,9 +60,9 @@ body{
     .grid-container {
         grid-template-columns: 2fr 1fr 1fr;
         grid-template-areas: 
-        "a a a"
-        "b c d"
-        "b e e"
-        "f f f";
+        "A A A"
+        "B C D"
+        "B E E"
+        "F F F";
     }
 }
