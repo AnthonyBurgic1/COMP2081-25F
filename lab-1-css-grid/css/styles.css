@@ -28,12 +28,12 @@ body{
 
 .grid-container {
     grid-template-areas: 
-    "a"
-    "b"
-    "c"
-    "d"
-    "e"
-    "f";
+    "A"
+    "B"
+    "C"
+    "D"
+    "E"
+    "F";
 }
 /* This is where I set up the grid for each of the areas and items in the grid */
 .a { grid-area: a; }
